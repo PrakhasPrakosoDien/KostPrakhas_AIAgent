@@ -27,7 +27,6 @@ AIAgent_KostPrakhas/
 │
 ├── frontend/
 ├── backend/
-├── data/
 ├── README.md
 └── .env
 ```
@@ -42,6 +41,8 @@ Customer Service Bot untuk membantu calon penyewa mendapatkan informasi mengenai
 - Keamanan
 - Lokasi
 - Peraturan kos
+- Kontak
+- Ketersediaan Kamar
 
 ## 👨‍💻 Author
 
