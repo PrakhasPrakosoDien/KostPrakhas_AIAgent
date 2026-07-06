@@ -1,21 +1,29 @@
 {
   "nama_kost":"KostPrakhas",
 
-  "lokasi":"Bandung",
+  "lokasi":"Pasteur, Bandung",
 
   "harga":{
 
-    "single_bed":"Rp900.000/bulan",
+    "premium_room":"Rp1.100.000/bulan",
 
-    "double_bed":"Rp1.400.000/bulan"
+    "exclusive_room":"Rp2.100.000/bulan"
 
   },
 
   "tipe_kamar":[
 
-    "Single Bed",
-
-    "Double Bed"
+    "Premium Room",
+    "• Single Bed",
+    "• Balkon",
+    "• Smart TV",
+    
+    "Exclusive Room",
+    "• Double Bed",
+    "• Balkon",
+    "• Smart TV",
+    "• Water Heater",
+    "• Kulkas"
 
   ],
 
@@ -31,9 +39,17 @@
 
     "Meja",
 
+    "Laundry",
+
+    "Listrik",
+
+    "air",
+
     "Kamar mandi dalam",
 
-    "Parkir motor"
+    "Parkir motor",
+
+    "Parkir mobil"
 
   ],
 
@@ -43,9 +59,12 @@
 
     "Access Card",
 
-    "Penjaga Malam"
+    "Penjaga Malam 24 Jam Standby"
 
   ],
-
+  "pembayaran":[
+    "Booking atau Pembayaran bisa Kontak WA ke 081234554321",
+    "Kos dimulai dari tanggal waktu pembayaran, Hingga jatuh tempo untuk pembayaran buat penyewaan bulan kedepan."
+  ],
   "jam_bertamu":"06.00-22.00"
 }
