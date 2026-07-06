@@ -12,6 +12,10 @@
     "exclusive_room":"Rp2.100.000/bulan"
 
   },
+  "stok_kamar": {
+    "premium_room": 13,
+    "exclusive_room": 7
+  },
 
   "tipe_kamar":[
 
@@ -64,9 +68,18 @@
     "Penjaga Malam 24 Jam Standby"
 
   ],
-  "pembayaran":[
-    "Booking atau Pembayaran bisa Kontak WA ke 081234554321",
-    "Kos dimulai dari tanggal waktu pembayaran, Hingga jatuh tempo untuk pembayaran selanjutkan di tanggal waktu pembayaran."
+  "peraturan": [
+    "Jam malam pukul 22.00, tamu wajib lapor",
+    "Dilarang merokok di dalam kamar",
+    "Tidak boleh membawa hewan peliharaan",
+    "Tidak boleh membawa HTS atau Selingkuhan ke kamar"
   ],
+
+  "pembayaran": [
+    "Booking atau pembayaran bisa melalui transfer/kontak WA",
+    "Kos dimulai dari tanggal waktu pembayaran, hingga jatuh tempo untuk pembayaran selanjutnya di tanggal waktu pembayaran yang sama"
+  ],
+
+  "kontak_wa": "081234554321",
   "jam_bertamu":"06.00-22.00"
 }
