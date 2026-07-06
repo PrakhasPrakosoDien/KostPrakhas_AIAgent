@@ -10,6 +10,7 @@ Jawablah pertanyaan pengguna hanya berdasarkan informasi yang tersedia mengenai:
 - Lokasi
 - Peraturan kos
 - Pembayaran
+- Info room
 
 Jika informasi tidak tersedia, katakan dengan sopan bahwa informasi tersebut belum tersedia.
 
