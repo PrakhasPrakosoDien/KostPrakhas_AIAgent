@@ -1,5 +1,11 @@
+import sys
+from pathlib import Path
 import streamlit as st
-from gemini_servis import ask_gemini
+
+# Tambahkan folder backend ke python path
+sys.path.append(str(Path(__file__).resolve().parent.parent / "backend"))
+
+from gemini_service import ask_gemini
 
 st.set_page_config(
     page_title="KostPrakhas AI",
@@ -8,7 +14,6 @@ st.set_page_config(
 )
 
 st.title("🏠 KostPrakhas AI")
-
 st.caption("Customer Service Chatbot menggunakan Google Gemini")
 
 if "messages" not in st.session_state:
@@ -37,8 +42,4 @@ if prompt:
     st.session_state.messages.append({
         "role": "assistant",
         "content": response
-    })
-    st.session_state.messages.append({
-        "role": "assistant",
-        "content": "Halo! Saya AI Assistant KostPrakhas. Nanti jawaban ini akan berasal dari Google Gemini API."
     })
