@@ -27,8 +27,7 @@ AIAgent_KostPrakhas/
 │
 ├── frontend/
 ├── backend/
-├── README.md
-└── .env
+└── README.md
 ```
 
 ## 🎯 Use Case
